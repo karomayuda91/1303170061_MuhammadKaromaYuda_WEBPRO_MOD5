@@ -1,0 +1,44 @@
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>TP MODUL 5</h2>
+
+<p id="1"></p>
+<p id="2"></p>
+<p id="3"></p>
+<p id="4"></p>
+<p id="5"></p>
+<p id="6"></p>
+
+<script>
+var typejson, J;
+typejson = {
+  "Home"    :"Muhammad Karoma Yuda, 1303170061, IT-41-02",
+  "About"   :"Saya lahir di Brebes",
+  "Hobbies"     :[ "rebahan", "menonton film", "mendengarkan musik" ],
+  "Skills"      :["Membuat poster", "skip", "skip"],
+  "Education"   :[ "SDN 01 kalierang", "MTSN Model", "MAN 1 Babakan" ],
+  "Experience"  :[ "mengikuti himpunan", "skip", "skip" ],
+};
+J = typejson.Home;
+document.getElementById("1").innerHTML = J;
+J = typejson.About;
+document.getElementById("2").innerHTML = J;
+J = typejson.Hobbies;
+document.getElementById("3").innerHTML = J;
+J = typejson.Skills;
+document.getElementById("4").innerHTML = J;
+J = typejson.Education;
+document.getElementById("5").innerHTML = J;
+J = typejson.Experience;
+document.getElementById("6").innerHTML = J;
+
+</script>
+
+
+</body>
+</html>
+
+
